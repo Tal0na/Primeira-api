@@ -24,7 +24,7 @@ const TempoComponent = () => {
     // Chama a função fetchData imediatamente ao montar o componente
     fetchData();
 
-    // Configura um intervalo para chamar fetchData a cada 1 minuto (60000 milissegundos)
+    // Configura um intervalo para chamar fetchData a cada 1 minuto (1000 milissegundos)
     const intervalId = setInterval(fetchData, 60000);
 
     // Limpa o intervalo ao desmontar o componente
